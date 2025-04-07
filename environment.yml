@@ -1,0 +1,27 @@
+name: eunisml
+channels:
+  - pytorch  
+  - conda-forge
+dependencies:
+  - python
+  - pytorch
+  - skorch
+  - skops
+  - torchmetrics
+  - optuna
+  - pandas
+  - xgboost
+  - lightgbm
+  - catboost
+  - tifffile
+  - scikit-learn
+  - pycaret 
+  - matplotlib
+  - jupyterlab 
+  - seaborn
+  - rasterio
+  - geopandas
+  - shap
+  - fastparquet
+  - pytorch_tabnet
+  - notebook
