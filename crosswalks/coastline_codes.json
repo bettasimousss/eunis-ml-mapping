@@ -1,0 +1,10 @@
+{
+    'ARC_COAST': 1,
+    'ATL_COAST': 2,
+    'BAL_COAST': 3,
+    'BLA_COAST': 4,
+    'MED_COAST': 5,
+    'MAC_COAST': 6,
+    'NAF_COAST': 0,
+    'NODATA': 255
+}

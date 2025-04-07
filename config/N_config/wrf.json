@@ -1,0 +1,13 @@
+{
+    
+    'hyperparams': {
+        'n_estimators':128,
+        'max_features': 'sqrt',
+        'max_samples': 1.0,
+        'max_depth':7,
+        'class_weight':'balanced',
+        'criterion': 'gini',
+        'verbose': 2,
+        'n_jobs': -1
+    }
+}

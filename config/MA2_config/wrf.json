@@ -1,0 +1,10 @@
+{
+
+    'hyperparams': {
+        'n_estimators':128,
+        'verbose': 2,
+        'n_jobs': -1,
+        'class_weight':'balanced',
+        'criterion': 'gini'
+    }
+}

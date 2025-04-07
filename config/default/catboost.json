@@ -1,0 +1,19 @@
+{
+    'hyperparams': {
+        'iterations':100,
+        'eta': 0.2,
+        'random_seed': 1234,
+        'use_best_model': True,
+        'verbose':True,
+        'objective':'MultiClass',
+        'auto_class_weights':'Balanced',
+        'eval_metric':'MultiClass',
+        'custom_metric': ['Recall','Precision','F1','Accuracy']
+    },
+    
+    'train_params' : {
+        'train_dir': 'models/catboost/',
+        'early_stopping_rounds': 5,
+        'plot_file':'models/catboost/plots.png'
+    }
+}

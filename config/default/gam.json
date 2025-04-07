@@ -1,0 +1,7 @@
+{
+    
+    'hyperparams': {
+        'terms': 'spline',
+        'max_iter': 200
+    }
+}

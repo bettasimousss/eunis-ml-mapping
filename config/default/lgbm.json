@@ -1,0 +1,14 @@
+{
+    'hyperparams': {
+        'n_estimators' : 32,
+        'boosting_type':'gbdt', ## 'dart', 'rf'
+        'objective' : 'softmax',
+        'class_weight' : 'balanced',
+        'n_jobs' : -1
+    },
+    
+    'train_params' : {
+        'early_stopping_rounds': 5#,
+        #'min_delta': 1e-3
+    }
+}

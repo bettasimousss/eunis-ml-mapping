@@ -1,0 +1,27 @@
+{
+    'hyperparams': {
+        'archi' : [512,256,128], 
+        'bn' : True,
+        'dropout' : 0.0
+    },
+    
+    'train_params' : {
+        'batch_size':1024,
+        'max_epochs':1000,
+        'shuffle': True,
+        'pin' : True,
+        'threshold':1e-3,
+        'patience':10,
+        'num_workers':10,
+        'loss': {
+            'lossname':'ldam',
+            'weighted':False,
+            'margin':0.5
+        },
+        'optimizer': {
+            'optim':torch.optim.RAdam,
+            'lr': 0.001,
+            'wdecay': 1e-3
+        }
+    }
+}
